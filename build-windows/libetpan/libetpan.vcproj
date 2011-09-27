@@ -822,6 +822,22 @@
 						>
 					</File>
 					<File
+						RelativePath="..\..\src\low-level\imap\namespace.c"
+						>
+					</File>
+					<File
+						RelativePath="..\..\src\low-level\imap\namespace_parser.c"
+						>
+					</File>
+					<File
+						RelativePath="..\..\src\low-level\imap\namespace_sender.c"
+						>
+					</File>
+					<File
+						RelativePath="..\..\src\low-level\imap\namespace_types.c"
+						>
+					</File>
+					<File
 						RelativePath="..\..\src\low-level\imap\quota.c"
 						>
 					</File>
@@ -851,6 +867,10 @@
 					</File>
 					<File
 						RelativePath="..\..\src\low-level\imap\uidplus_types.c"
+						>
+					</File>
+					<File
+						RelativePath="..\..\src\low-level\imap\xlist.c"
 						>
 					</File>
 				</Filter>
@@ -1485,6 +1505,42 @@
 				<File
 					RelativePath="..\..\src\windows\win_etpan.h"
 					>
+				</File>
+				<File
+					RelativePath="..\..\src\windows\win_init.cpp"
+					>
+					<FileConfiguration
+						Name="Debug|Win32"
+						>
+						<Tool
+							Name="VCCLCompilerTool"
+							CompileAs="2"
+						/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release|Win32"
+						>
+						<Tool
+							Name="VCCLCompilerTool"
+							CompileAs="2"
+						/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Debug_ssl|Win32"
+						>
+						<Tool
+							Name="VCCLCompilerTool"
+							CompileAs="2"
+						/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release_ssl|Win32"
+						>
+						<Tool
+							Name="VCCLCompilerTool"
+							CompileAs="2"
+						/>
+					</FileConfiguration>
 				</File>
 			</Filter>
 		</Filter>

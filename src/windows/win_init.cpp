@@ -10,8 +10,10 @@ Special class, initializers for windows
 #include <winsock2.h>
 
 #ifdef _MSC_VER
-#include "mailstream_ssl_private.h"
-#include "mmapstring_private.h"
+extern "C" {
+#include "../data-types/mailstream_ssl_private.h"
+#include "../data-types/mmapstring_private.h"
+}
 #endif
 
 class win_init {

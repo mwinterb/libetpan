@@ -21,6 +21,8 @@
 /build-windows/_headers_depends
 /build-windows/libetpan/Debug_ssl
 /build-windows/libetpan/Release_ssl
+/build-windows/libetpan/x64/Debug_ssl
+/build-windows/libetpan/x64/Release_ssl
 /build-windows/libetpan/Debug
 /build-windows/libetpan/Release
 /build-windows/Debug

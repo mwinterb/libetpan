@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libetpan", "libetpan\libetpan.vcproj", "{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cyglibetpan", "libetpan\libetpan.vcproj", "{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "readmsg", "readmsg\readmsg.vcproj", "{5FEA913A-5CE4-4DEB-B6BE-B8EA1BF6F653}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -12,19 +12,29 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_ssl|Win32 = Debug_ssl|Win32
+		Debug_ssl|x64 = Debug_ssl|x64
 		Debug|Win32 = Debug|Win32
 		Release_ssl|Win32 = Release_ssl|Win32
+		Release_ssl|x64 = Release_ssl|x64
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug_ssl|Win32.ActiveCfg = Debug_ssl|Win32
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug_ssl|Win32.Build.0 = Debug_ssl|Win32
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug_ssl|x64.ActiveCfg = Debug_ssl|x64
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug_ssl|x64.Build.0 = Debug_ssl|x64
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug|Win32.ActiveCfg = Debug|Win32
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug|Win32.Build.0 = Debug|Win32
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug|x64.ActiveCfg = Debug|x64
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Debug|x64.Build.0 = Debug|x64
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release_ssl|Win32.ActiveCfg = Release_ssl|Win32
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release_ssl|Win32.Build.0 = Release_ssl|Win32
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release_ssl|x64.ActiveCfg = Release_ssl|x64
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release_ssl|x64.Build.0 = Release_ssl|x64
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release|Win32.ActiveCfg = Release|Win32
 		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release|Win32.Build.0 = Release|Win32
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release|x64.ActiveCfg = Release|x64
+		{BA4DED3C-E56F-4484-BFC3-9C13E461A1BE}.Release|x64.Build.0 = Release|x64
 		{5FEA913A-5CE4-4DEB-B6BE-B8EA1BF6F653}.Debug_ssl|Win32.ActiveCfg = Debug|Win32
 		{5FEA913A-5CE4-4DEB-B6BE-B8EA1BF6F653}.Debug_ssl|Win32.Build.0 = Debug|Win32
 		{5FEA913A-5CE4-4DEB-B6BE-B8EA1BF6F653}.Debug|Win32.ActiveCfg = Debug|Win32
